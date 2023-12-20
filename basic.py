@@ -29,10 +29,10 @@ execution_time = timeit.timeit('cosine_distance_numpy(a_list, b_list)', globals=
 average_execution_time_ms = (execution_time / 1000) * 1000  # Convert seconds to milliseconds
 print("Average execution time regular: {:.2f} ms".format(average_execution_time_ms))
 
+# Measure the performance with optimized data structures
+print("tests with optimized numpy types")
 a_list = np.random.rand(1536).astype(np.int8)
 b_list = np.random.rand(1536).astype(np.int8)
-
-# Measure the performance with optimized data structures
 execution_time = timeit.timeit('cosine_distance(a_list, b_list)', globals=globals(), number=1000)
 average_execution_time_ms = (execution_time / 1000) * 1000  # Convert seconds to milliseconds
 print("Average execution time regular: {:.2f} ms".format(average_execution_time_ms))
