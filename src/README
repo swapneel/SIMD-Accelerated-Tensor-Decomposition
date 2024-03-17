@@ -1,0 +1,4 @@
+SIMD-Accelerated-Tensor-Decomposition
+
+SATD (SIMD-Accelerated Tensor Decomposition) is a high-performance Rust library designed for efficient tensor decomposition, leveraging the power of Single Instruction, Multiple Data (SIMD) instructions. This library aims to optimize tensor decomposition tasks such as Canonical Polyadic (CP) Decomposition and Tucker Decomposition, making them significantly faster on modern hardware architectures.
+
