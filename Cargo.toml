@@ -7,3 +7,5 @@ edition = "2021"
 
 [dependencies]
 utils = "0.0.3"
+ndarray = "0.15"
+ndarray-linalg = "0.14"
